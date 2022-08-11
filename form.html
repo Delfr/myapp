@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="formstyle.css"/>
+  </head>
+  <body>
+
+      <div class="formulario">
+
+      <form action="formprueba.php" method="post">
+        <table>
+          <tr>
+            <td><input type="text" name="usuario" id="usuario" value="" placeholder="Usuario" required=""/></td>
+          </tr>
+          <tr>
+            <td><input type="password" name="password" id="password" value="" placeholder="Clave" required=""/></td>
+          </tr>
+          <tr>
+
+            <td><input type="email" name="email" id="email" value=""placeholder="E-mail"required="" /></td>
+          </tr>
+          <tr>
+          <tr>
+
+            <td><select class="curso" name="curso" id="curso" required>
+              <option selected hidden value="">Curso</option>
+              <option value="1">Primero</option>
+              <option value="2">Segundo</option>
+              <option value="3">Tercero</option>
+              <option value="4">Cuarto</option>
+              <option value="5">Quinto</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td><input type="submit" name="enviar" id="enviar" value="ENVIAR" /></td>
+            <td><input type="reset" name="reset" id="reset" value="BORRAR" /></td>
+          </tr>
+        </table>
+
+      </form>
+
+    </div>
+  </body>
+</html>
