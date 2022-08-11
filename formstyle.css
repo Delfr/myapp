@@ -1,0 +1,105 @@
+
+.title {
+	color: #0F1D42;
+	text-align : center;
+}
+body {
+background:#7597E6;
+font-family:verdana;
+font-type:bold;
+font-size
+}
+.formulario {
+width: 320px;
+color:#DBEDEC;
+padding: 40px 20px;
+position:fixed;
+left: 27%;
+top:50;
+transform: translate (-50%, -50%);
+border: 1px;
+font-family:verdana;
+}
+input[type = "text"]{
+width : 100%;
+background: #DDE0EE;
+border : 1px solid;
+border-radius: 3px;
+padding: 6px 15px;
+box-sizing: border-box;
+margin-bottom: 20px;
+color:#366DF7;
+font-family: verdana;
+font-color : #0F1D42;
+}
+
+input[type = "password"]{
+width : 100%;
+background: #DDE0EE;
+border : 1px solid;
+border-radius: 3px;
+padding: 6px 15px;
+box-sizing: border-box;
+margin-bottom: 20px;
+color:#366DF7;
+font-family: verdana;
+font-color : #0F1D42;
+}
+input[type = "email"]{
+width : 100%;
+background: #DDE0EE;
+border : 1px solid;
+border-radius: 3px;
+padding: 6px 15px;
+box-sizing: border-box;
+margin-bottom: 20px;
+color:#366DF7;
+font-family: verdana;
+font-color : #0F1D42;
+}
+select[class = "materia"]{
+width : 100%;
+background: #DDE0EE;
+border : 1px solid;
+border-radius: 3px;
+padding: 6px 15px;
+box-sizing: border-box;
+margin-bottom: 20px;
+color:#0F1D42;
+font-family: verdana;
+font-color : #0F1D42;
+text-align : center;
+}
+input[type = "submit"]:hover{
+width : 100%;
+background: #DDE0EE;
+border : 1px solid;
+border-radius: 3px;
+padding: 6px 15px;
+box-sizing: border-box;
+margin-bottom: 20px;
+color:#0F1D42;
+font-family: verdana;
+transition : .6s;
+font-type:bold;
+}
+
+::placeholder {
+color:#0F1D42;
+text-align: center;
+
+}
+input[type = "reset"]:hover{
+width : 100%;
+background: #DDE0EE;
+border : 1px solid;
+border-radius: 3px;
+padding: 6px 15px;
+box-sizing: border-box;
+margin-bottom: 20px;
+color:#0F1D42;
+font-family: verdana;
+transition : .6s;
+font-type:bold;
+
+}
