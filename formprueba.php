@@ -23,7 +23,7 @@ if(!isset($_POST['nombre'])||!isset($_POST['password'])||!isset($_POST['email'])
   $data_entry = mysqli_query($conectar_db, $sql_insert);
   return $data_entry;
 
-  if($data_entry===TRUE){
+  if($data_entry){
     echo "Los datos fueron registrados";
     } else {
       die(mysqli_connect_errno());
